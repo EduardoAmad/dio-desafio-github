@@ -1,0 +1,19 @@
+Imposto = float
+Imposto1= float
+Imposto2= float
+Beneficio = 250
+Salario = int (input( " Digite o Salário Bruto" ))
+print ("O seu salário Bruto é",Salario)
+
+
+if Salario <= 1100: 
+    Imposto = Salario * 5/100
+    print ('Seu Salario Final é:', Salario + Beneficio - Imposto ) 
+elif (Salario >= 2500) :
+     Imposto2 = Salario  * 15/100
+     print ('Seu Salario Final é:', Salario + Beneficio - Imposto2 )
+
+else:
+    Salario <= 2500
+    Imposto1 = Salario * 10/100
+    print ('Seu Salario Final é:', Salario + Beneficio - Imposto1 )
